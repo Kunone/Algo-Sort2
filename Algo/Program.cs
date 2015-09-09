@@ -10,8 +10,14 @@ namespace Algo
             var a = GenerateRandomIntArray(10000);
             Sort<int>.QuickSortV2(a);
             Console.WriteLine(Sort<int>.IsSorted(a));
+
         }
 
+        /// <summary>
+        /// test use only
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         static int[] GenerateRandomIntArray(int n)
         {
             Random r = new Random();
